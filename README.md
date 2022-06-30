@@ -1,3 +1,2 @@
-# alx-low_level_programming
-ALX
-C - Hello, World
+#!/bin/bash
+C- Hello, World
