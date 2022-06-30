@@ -1,8 +1,8 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - entry
- * Return : 0 if printed properly and non zero otherwise
+ * Return: 0 if exited properly and non zero otherwise
  */
 int main(void)
 {
