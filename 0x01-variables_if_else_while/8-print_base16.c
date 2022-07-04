@@ -1,15 +1,24 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * return: Always 0 if successful
- */
+* main - entry point
+*
+* Return: always 0
+*/
 int main(void)
 {
-unsigned char a = '0';
-int i;
-for (i = 0; i < 10; i++)
+	int i;
+	char c;
 
-return (0);
+	for (i = 0; i <= 9; i++)
+{
+		putchar(i + '0');
+}
 
+	for (c = 'a'; c <= 'f'; c++)
+{
+		putchar(c);
+}
+	putchar('\n');
+	return (0);
 }
