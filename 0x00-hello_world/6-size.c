@@ -13,7 +13,7 @@ int main(void)
 	float floatType;
 
 	printf("Size of a char: %d byte(s)\n", sizeof(charType));
-	printf("Size of a int: %d byte(s)\n", sizeof(intType));
+	printf("Size of an int: %d byte(s)\n", sizeof(intType));
 	printf("Size of a long int: %d byte(s)\n", sizeof(longint));
 	printf("Size of a long long int: %d byte(s)\n", sizeof(longlongint));
 	printf("Size of a float: %d byte(s)\n", sizeof(floatType));
