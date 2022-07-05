@@ -3,8 +3,7 @@
 * print_alphabet - prints alphabet
 */
 
-void print_alphabet(void);
-
+void print_alphabet(void)
 {
 	int j;
 
