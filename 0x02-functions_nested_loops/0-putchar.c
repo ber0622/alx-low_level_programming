@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-* _putchar - print characters
+* main - print characters
 *
 * return: 0
 */
-int _putchar(void)
+int main(void)
 {
 	int _putchar(char _);
 	int _putchar(char p);
@@ -15,7 +15,7 @@ int _putchar(void)
 	int _putchar(char h);
 	int _putchar(char a);
 	int _putchar(char r);
-	int _putchar(char "\n");
+	int _putchar(char \n);
 
 	return (0);
 
