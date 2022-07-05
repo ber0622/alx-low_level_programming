@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-* main - prints sign
-*
-* Return - always 0 if successful
+* print_sign - prints the sign of a number
+*@n: argument passed
+* Return: -1,0,1
 */
-int main(void)
+int print_sign(int n)
 {
 	int n;
 
