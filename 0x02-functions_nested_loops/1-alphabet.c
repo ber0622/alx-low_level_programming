@@ -1,9 +1,8 @@
 #include "main.h"
 /**
-* main - prints alphabet
-*
-* Return: always 0 if successful
+* print_alphabet - prints alphabet
 */
+
 void print_alphabet(void);
 
 {
@@ -16,5 +15,4 @@ void print_alphabet(void);
 	}
 	_putchar('\n');
 
-	return (0);
 }
