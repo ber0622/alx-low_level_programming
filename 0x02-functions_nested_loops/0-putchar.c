@@ -15,7 +15,7 @@ int main(void)
 	int _putchar(char h);
 	int _putchar(char a);
 	int _putchar(char r);
-	int _putchar( \n);
+	int _putchar("\n");
 
 	return (0);
 
