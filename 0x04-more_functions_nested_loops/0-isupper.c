@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
-* _isupper - check the code.
+* _isupper - check the code
 * @c: displays character
-* Return: Always 0.
+* Return: Always 0
 */
 int _isupper(int c);
 {
-	char c;
-
 	if (c >= 'A' && c <= 'Z')
 {
 		return (1);
