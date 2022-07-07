@@ -10,7 +10,7 @@ void more_numbers(void)
 	{
 		for (d = '0'; d < '15'; d++)
 		{
-			_putchar(d);
+			_putchar(d + '0');
 		}
 	}
 
