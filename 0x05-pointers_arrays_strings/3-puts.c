@@ -1,11 +1,13 @@
-#include <stdio.h>
 #include "main.h"
 /**
-* _puts - prints a string, followed by a new line
+* _puts - prints a string
 * @str: parameter
 */
 void _puts(char *str)
 {
-	_putchar(*str);
+	for (; *str != '\0'; str++)
+	{
+		_putchar(*str);
+	}
 	_putchar('\n');
 }
