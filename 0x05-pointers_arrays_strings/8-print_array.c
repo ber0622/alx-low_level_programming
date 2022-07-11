@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
 * print_array - prints n elements of an array of integers
 * @a: pointer
@@ -6,5 +7,5 @@
 */
 void print_array(int *a, int n)
 {
-
+	int []
 }
