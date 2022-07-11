@@ -4,7 +4,7 @@
 /**
 * _puts - prints a string
 * @str: parameter
-* Return: string
+* Return: void
 */
 void _puts(char *str)
 {
