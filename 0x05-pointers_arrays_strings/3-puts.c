@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+
 /**
 * _puts - prints a string
 * @str: parameter
