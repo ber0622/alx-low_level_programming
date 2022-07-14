@@ -2,10 +2,9 @@
 
 /**
  * cap_string - capitalizes all words of a string
- * @s: the string
  * Return: string
  */
-char *cap_string(char *s)
+char *cap_string(char *)
 {
 	char spc[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 	int len = 13;
