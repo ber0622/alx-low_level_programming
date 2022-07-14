@@ -2,9 +2,9 @@
 #include <string.h>
 /**
  * _strncpy - copies a string
- * @dest: parameter1
- * @src: parameter2
- * @n: parameter3
+ * @dest: param1
+ * @src: param2
+ * @n: param3
  * Return: copied string
  */
 char *_strncpy(char *dest, char *src, int n)
