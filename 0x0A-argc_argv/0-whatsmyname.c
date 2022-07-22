@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 /**
 * main - function
@@ -7,7 +6,7 @@
 * @argv: argument vector
 * Return: function name
 */
-int main(argc, *argv[])
+int main(int argc, char *argv[])
 {
 	printf("s%\n", argv[0]);
 	return (0);
