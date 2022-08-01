@@ -4,7 +4,6 @@
 /**
 * print_dog - prints out
 * @d: pointer
-* Return: filled structure
 */
 void print_dog(struct dog *d)
 {
