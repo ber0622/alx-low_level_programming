@@ -7,14 +7,17 @@
 */
 size_t print_list(const list_t *h)
 {
-	const list_t *p = h;
-	size_t n = 0;
+	const list_t *current;
+	size_t c;
 
-	while (p != NULL)
+	c = 0;
+	current = h;
+	while (current != NULL)
 	{
-		printf("[%d] %s\n", p->len, p->str);
-		p = p->next;
-		n++;
+		printf("[%d] %s\n", current->len, current->str);
+		current = current->next;
+		c++;
 	}
-	return (n);
+
+	return (c);
 }
