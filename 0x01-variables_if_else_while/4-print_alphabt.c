@@ -6,18 +6,17 @@
  */
 int main(void)
 {
-char alphabet;
+	char alphabet;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-	if (alphabet == 'q')
-		continue;
-	else if (alphabet == 'e')
-		continue;
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		if (alphabet == 'e')
+			continue;
+		else if (alphabet == 'q')
+			continue;
+		putchar (alphabet);
+	}
+	putchar ('\n');
 
-	putchar (alphabet);
-}
-putchar ('\n');
-
-return (0);
+	return (0);
 }
