@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - function
  *
@@ -10,9 +11,9 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		for (j = 1; j < 9; j++)
+		for (j = i + 1; j < 9; j++)
 		{
-			for (k = 2; k < 10; k++)
+			for (k = j + 1; k < 10; k++)
 			{
 				putchar(i + '0');
 				putchar(j + '0');
