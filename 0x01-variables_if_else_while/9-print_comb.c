@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- * 
- * return: always 0 if successful
+ *
+ * Return: always 0 if successful
  */
 int main(void)
 {
@@ -16,10 +16,10 @@ int main(void)
 
 		putchar(',');
 		putchar(' ');
-	
+
 	}
 
 	putchar('\n');
-	
-	return(0);
+
+	return (0);
 }
